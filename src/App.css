@@ -1,38 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  background-color: black;
+  color:white
+
+}
+.WeaponButton{
+  height: 100px;
+  width :100px;
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 50%;
+  padding :10px;
+  margin : 0px  20px;
+  transition : all 0.3 ease;
+  font-family: 'Luckiest Guy', cursive;
+  font-size : 19px;
+  
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.WeaponButton:hover{
+  cursor: pointer;
+  background: red;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.StartButton {
+  height :70px;
+  width: 100px;
+  margin-top :20px;
+  padding :10px;
+  border-radius: 10%;
+  font-family: 'Luckiest Guy', cursive;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.StartButton:hover{
+  cursor: pointer;
+  background: red;
+  font-size : 19px;
+  font-weight: bold;
 }
